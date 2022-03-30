@@ -10,7 +10,7 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>benchmarks/context_sensitivity</module>
-        <module>benchmarks/object_sensitivty</module>
+        <module>benchmarks/object_sensitivity</module>
     </modules>
 
     <build>
