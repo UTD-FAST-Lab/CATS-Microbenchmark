@@ -1,4 +1,4 @@
-package edu.utdallas.amordahl.sensitivity_benchmark.context_sensitivty;
+package edu.utdallas.amordahl.sensitivity_benchmark.context_sensitivity;
 
 public class B implements HasFoo{
     public void foo() {
