@@ -10,7 +10,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>object_sensitivty</artifactId>
+    <artifactId>object_sensitivity</artifactId>
 
     <build>
         <plugins>
