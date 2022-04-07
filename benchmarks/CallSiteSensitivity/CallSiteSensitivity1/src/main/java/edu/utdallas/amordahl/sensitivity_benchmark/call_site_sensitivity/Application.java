@@ -1,4 +1,4 @@
-package edu.utdallas.amordahl.sensitivity_benchmark.context_sensitivity;
+package edu.utdallas.amordahl.sensitivity_benchmark.call_site_sensitivity;
 
 public class Application {
     public static void main(String[] args) {
