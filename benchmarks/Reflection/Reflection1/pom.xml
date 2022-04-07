@@ -3,22 +3,19 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>AnonymousClasses</artifactId>
+        <artifactId>Reflection</artifactId>
         <groupId>edu.utdallas.amordahl.javamicrobenchmark</groupId>
         <version>1.0</version>
-        <relativePath>../pom.xml</relativePath>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>edu.utdallas.amordahl.javamicrobenchmark.anonymousclasses</groupId>
-    <artifactId>AnonymousClasses1</artifactId>
-    <version>1.0</version>
-    <packaging>jar</packaging>
+    <groupId>edu.utdallas.amordahl.javamicrobenchmark.reflection</groupId>
+    <artifactId>Reflection1</artifactId>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
-        <project.mainclass>edu.utdallas.amordahl.javamicrobenchmark.anonymousclasses.anonymousclasses1.Application</project.mainclass>
+        <project.mainclass>edu.utdallas.amordahl.javamicrobenchmark.reflection.reflection1.Application</project.mainclass>
     </properties>
 
     <build>
@@ -29,4 +26,5 @@
             </plugin>
         </plugins>
     </build>
+
 </project>

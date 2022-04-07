@@ -12,6 +12,7 @@
         <module>benchmarks/AnonymousClasses</module>
         <module>benchmarks/CallSiteSensitivity</module>
         <module>benchmarks/ObjectSensitivity</module>
+        <module>benchmarks/Reflection</module>
     </modules>
 
     <properties>
@@ -20,6 +21,40 @@
     </properties>
 
     <build>
+        <finalName>${project.artifactId}</finalName>
+            <pluginManagement>
+                <plugins>
+                    <plugin>
+                        <groupId>org.apache.maven.plugins</groupId>
+                        <artifactId>maven-assembly-plugin</artifactId>
+                        <executions>
+                            <execution>
+                                <phase>package</phase>
+                                <goals>
+                                    <goal>single</goal>
+                                </goals>
+                                <configuration>
+                                    <outputDirectory>
+                                        ${javamicrobenchmark}/outputs
+                                    </outputDirectory>
+                                    <descriptorRefs>
+                                        <descriptorRef>jar-with-dependencies</descriptorRef>
+                                    </descriptorRefs>
+                                    <appendAssemblyId>false</appendAssemblyId>
+                                    <archive>
+                                        <manifest>
+                                            <!--suppress UnresolvedMavenProperty -->
+                                            <!-- Children can override this property instead of redefining the
+                                            configuration for the plugin. -->
+                                            <mainClass>${project.mainclass}</mainClass>
+                                        </manifest>
+                                    </archive>
+                                </configuration>
+                            </execution>
+                        </executions>
+                    </plugin>
+                </plugins>
+            </pluginManagement>
         <plugins>
             <plugin>
             <artifactId>maven-clean-plugin</artifactId>
@@ -35,6 +70,29 @@
                     </fileset>
                 </filesets>
             </configuration>
+            </plugin>
+            <!-- This plugin sets the javamicrobenchmark property to the top-level directory. This way,
+we can have the children inherit the plugin with the output directory already set.-->
+            <plugin>
+                <groupId>org.commonjava.maven.plugins</groupId>
+                <artifactId>directory-maven-plugin</artifactId>
+                <version>0.1</version>
+                <executions>
+                    <execution>
+                        <id>directories</id>
+                        <goals>
+                            <goal>directory-of</goal>
+                        </goals>
+                        <phase>initialize</phase>
+                        <configuration>
+                            <property>javamicrobenchmark</property>
+                            <project>
+                                <groupId>edu.utdallas.amordahl</groupId>
+                                <artifactId>JavaMicrobenchmark</artifactId>
+                            </project>
+                        </configuration>
+                    </execution>
+                </executions>
             </plugin>
         </plugins>
     </build>

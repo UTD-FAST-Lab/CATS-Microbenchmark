@@ -1,4 +1,4 @@
-package edu.utdallas.amordahl.sensitivity_benchmark.object_sensitivity;
+package edu.utdallas.amordahl.javamicrobenchmark.objectsensitivity.objectsensitivity1;
 
 public class Application {
     public static void main(String[] args) {

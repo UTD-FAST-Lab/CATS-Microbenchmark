@@ -15,34 +15,14 @@
     <version>1.0</version>
     <packaging>jar</packaging>
 
+    <properties>
+        <project.mainclass>edu.utdallas.amordahl.javamicrobenchmark.objectsensitivity.objectsensitivity1.Application</project.mainclass>
+    </properties>
     <build>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-assembly-plugin</artifactId>
-                <executions>
-                    <execution>
-                        <phase>package</phase>
-                        <goals>
-                            <goal>single</goal>
-                        </goals>
-                        <configuration>
-                            <outputDirectory>
-                                ../../../outputs
-                            </outputDirectory>
-                            <archive>
-                                <manifest>
-                                    <mainClass>
-                                        edu.utdallas.amordahl.sensitivity_benchmark.object_sensitivity.Application
-                                    </mainClass>
-                                </manifest>
-                            </archive>
-                            <descriptorRefs>
-                                <descriptorRef>jar-with-dependencies</descriptorRef>
-                            </descriptorRefs>
-                        </configuration>
-                    </execution>
-                </executions>
             </plugin>
         </plugins>
     </build>

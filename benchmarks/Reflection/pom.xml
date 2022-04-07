@@ -11,17 +11,15 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>edu.utdallas.amordahl.javamicrobenchmark</groupId>
-    <artifactId>AnonymousClasses</artifactId>
-    <version>1.0</version>
-    <modules>
-        <module>AnonymousClasses1</module>
-        <module>AnonymousClasses2</module>
-    </modules>
+    <artifactId>Reflection</artifactId>
     <packaging>pom</packaging>
+    <modules>
+        <module>Reflection1</module>
+    </modules>
 
     <properties>
-        <maven.compiler.source>8</maven.compiler.source>
-        <maven.compiler.target>8</maven.compiler.target>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
     </properties>
 
 </project>

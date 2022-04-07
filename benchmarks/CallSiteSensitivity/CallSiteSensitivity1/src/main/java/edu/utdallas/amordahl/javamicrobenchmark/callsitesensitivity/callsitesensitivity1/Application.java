@@ -1,4 +1,4 @@
-package edu.utdallas.amordahl.sensitivity_benchmark.call_site_sensitivity;
+package edu.utdallas.amordahl.javamicrobenchmark.callsitesensitivity.callsitesensitivity1;
 
 public class Application {
     public static void main(String[] args) {
