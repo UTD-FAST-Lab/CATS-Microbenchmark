@@ -9,10 +9,16 @@
     <packaging>pom</packaging>
     <version>1.0</version>
     <modules>
-        <module>benchmarks/AnonymousClasses</module>
-        <module>benchmarks/CallSiteSensitivity</module>
-        <module>benchmarks/ObjectSensitivity</module>
+        <module>benchmarks/ClassLoading</module>
+        <module>benchmarks/DynamicProxies</module>
+        <module>benchmarks/JVMCalls</module>
+        <module>benchmarks/Java8InterfaceMethods</module>
+        <module>benchmarks/Java8InvokeDynamics</module>
+        <module>benchmarks/Library</module>
+        <module>benchmarks/TrivialModernReflection</module>
+        <module>benchmarks/NonVirtualCalls</module>
         <module>benchmarks/Reflection</module>
+        <module>benchmarks/Serialization</module>
     </modules>
 
     <properties>
@@ -21,6 +27,14 @@
     </properties>
 
     <build>
+        <resources>
+            <resource>
+                <directory>src/main/java</directory>
+                <includes>
+                    <include>**/*.java</include>
+                </includes>
+            </resource>
+        </resources>
         <finalName>${project.artifactId}</finalName>
             <pluginManagement>
                 <plugins>

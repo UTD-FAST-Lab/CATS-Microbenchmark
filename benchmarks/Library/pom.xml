@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>JavaMicrobenchmark</artifactId>
+        <groupId>edu.utdallas.amordahl</groupId>
+        <version>1.0</version>
+        <relativePath>../../pom.xml</relativePath>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>jcg.testcases</groupId>
+    <artifactId>Library</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>LIB1</module>
+        <module>LIB2</module>
+        <module>LIB3</module>
+        <module>LIB4</module>
+        <module>LIB5</module>
+    </modules>
+
+    <properties>
+        <maven.compiler.source>8</maven.compiler.source>
+        <maven.compiler.target>8</maven.compiler.target>
+    </properties>
+
+</project>
