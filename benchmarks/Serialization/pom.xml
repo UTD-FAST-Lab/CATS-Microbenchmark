@@ -12,6 +12,21 @@
 
     <groupId>jcg.testcases</groupId>
     <artifactId>Serialization</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>Ser1</module>
+        <module>Ser2</module>
+        <module>Ser3</module>
+        <module>Ser4</module>
+        <module>Ser5</module>
+        <module>Ser6</module>
+        <module>Ser7</module>
+        <module>Ser8</module>
+        <module>Ser9</module>
+        <module>ExternalizableClasses</module>
+        <module>SerializationAndLambdas</module>
+        <module>SerLam2</module>
+    </modules>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
