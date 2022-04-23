@@ -11,13 +11,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>jcg.testcases</groupId>
-    <artifactId>Reflection</artifactId>
+    <artifactId>Java8InterfaceMethods</artifactId>
     <packaging>pom</packaging>
     <modules>
-        <module>TrivialReflection</module>
-        <module>LocallyResolvableReflection</module>
-        <module>ContextSensitiveReflection</module>
-        <module>ClassForNameExceptions</module>
+        <module>Java8DefaultInterfaceMethods</module>
+        <module>Java8StaticInterfaceMethods</module>
     </modules>
 
     <properties>

@@ -11,18 +11,18 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>jcg.testcases</groupId>
-    <artifactId>Reflection</artifactId>
+    <artifactId>ClassLoading</artifactId>
     <packaging>pom</packaging>
     <modules>
-        <module>TrivialReflection</module>
-        <module>LocallyResolvableReflection</module>
-        <module>ContextSensitiveReflection</module>
-        <module>ClassForNameExceptions</module>
+        <module>CL1</module>
+        <module>CL2</module>
+        <module>CL3</module>
+        <module>CL4</module>
     </modules>
 
     <properties>
-        <maven.compiler.source>8</maven.compiler.source>
-        <maven.compiler.target>8</maven.compiler.target>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
     </properties>
 
 </project>

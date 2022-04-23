@@ -11,13 +11,17 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>jcg.testcases</groupId>
-    <artifactId>Reflection</artifactId>
+    <artifactId>TrivialModernReflection</artifactId>
     <packaging>pom</packaging>
     <modules>
-        <module>TrivialReflection</module>
-        <module>LocallyResolvableReflection</module>
-        <module>ContextSensitiveReflection</module>
-        <module>ClassForNameExceptions</module>
+        <module>TMR1</module>
+        <module>TMR2</module>
+        <module>TMR3</module>
+        <module>TMR4</module>
+        <module>TMR5</module>
+        <module>TMR6</module>
+        <module>TMR7</module>
+        <module>TMR8</module>
     </modules>
 
     <properties>

@@ -11,14 +11,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>jcg.testcases</groupId>
-    <artifactId>Reflection</artifactId>
-    <packaging>pom</packaging>
-    <modules>
-        <module>TrivialReflection</module>
-        <module>LocallyResolvableReflection</module>
-        <module>ContextSensitiveReflection</module>
-        <module>ClassForNameExceptions</module>
-    </modules>
+    <artifactId>Serialization</artifactId>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>

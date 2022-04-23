@@ -11,13 +11,10 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>jcg.testcases</groupId>
-    <artifactId>Reflection</artifactId>
+    <artifactId>DynamicProxies</artifactId>
     <packaging>pom</packaging>
     <modules>
-        <module>TrivialReflection</module>
-        <module>LocallyResolvableReflection</module>
-        <module>ContextSensitiveReflection</module>
-        <module>ClassForNameExceptions</module>
+        <module>DP1</module>
     </modules>
 
     <properties>

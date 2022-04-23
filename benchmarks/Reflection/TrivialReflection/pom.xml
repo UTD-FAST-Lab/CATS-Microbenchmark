@@ -3,21 +3,25 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>JavaMicrobenchmark</artifactId>
-        <groupId>edu.utdallas.amordahl</groupId>
+        <artifactId>Reflection</artifactId>
+        <groupId>jcg.testcases</groupId>
         <version>1.0</version>
-        <relativePath>../../pom.xml</relativePath>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>jcg.testcases</groupId>
-    <artifactId>Reflection</artifactId>
+    <groupId>jcg.testcases.reflection</groupId>
+    <artifactId>TrivialReflection</artifactId>
     <packaging>pom</packaging>
     <modules>
-        <module>TrivialReflection</module>
-        <module>LocallyResolvableReflection</module>
-        <module>ContextSensitiveReflection</module>
-        <module>ClassForNameExceptions</module>
+        <module>TR1</module>
+        <module>TR2</module>
+        <module>TR3</module>
+        <module>TR4</module>
+        <module>TR5</module>
+        <module>TR6</module>
+        <module>TR7</module>
+        <module>TR8</module>
+        <module>TR9</module>
     </modules>
 
     <properties>
