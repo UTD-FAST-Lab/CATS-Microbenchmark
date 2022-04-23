@@ -19,11 +19,17 @@
         <module>benchmarks/NonVirtualCalls</module>
         <module>benchmarks/Reflection</module>
         <module>benchmarks/Serialization</module>
+        <module>benchmarks/SignaturePolymorphicMethods</module>
+        <module>benchmarks/StaticInitializers</module>
+        <module>benchmarks/TypeCasts</module>
+        <module>benchmarks/Unsafe</module>
+        <module>benchmarks/VirtualCalls</module>
     </modules>
 
     <properties>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
     <build>
