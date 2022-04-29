@@ -54,9 +54,6 @@
                                     <goal>single</goal>
                                 </goals>
                                 <configuration>
-                                    <outputDirectory>
-                                        ${javamicrobenchmark}/outputs
-                                    </outputDirectory>
                                     <descriptorRefs>
                                         <descriptorRef>jar-with-dependencies</descriptorRef>
                                     </descriptorRefs>
