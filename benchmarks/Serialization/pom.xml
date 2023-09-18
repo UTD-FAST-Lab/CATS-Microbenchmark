@@ -25,7 +25,6 @@
         <module>Ser9</module>
         <module>ExternalizableClasses</module>
         <module>SerializationAndLambdas</module>
-        <module>SerLam2</module>
     </modules>
 
     <properties>

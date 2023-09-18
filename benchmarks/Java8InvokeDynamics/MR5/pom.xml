@@ -15,7 +15,7 @@
     <properties>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
-        <project.mainclass>id.Class</project.mainclass>
+        <project.mainclass>cats.mr5.id.Class</project.mainclass>
     </properties>
     <build>
         <plugins>

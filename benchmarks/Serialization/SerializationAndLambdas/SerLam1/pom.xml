@@ -15,7 +15,7 @@
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
-        <project.mainclass>serlam.DoSerialization</project.mainclass>
+        <project.mainclass>cats.serlam1.serlam.DoSerialization</project.mainclass>
     </properties>
     <build>
         <plugins>

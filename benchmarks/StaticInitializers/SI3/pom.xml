@@ -15,7 +15,7 @@
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
-        <project.mainclass>si.Demo</project.mainclass>
+        <project.mainclass>cats.si3.si.Demo</project.mainclass>
     </properties>
     <build>
         <plugins>

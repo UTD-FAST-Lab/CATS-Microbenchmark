@@ -15,7 +15,7 @@
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
-        <project.mainclass>spm1.Class</project.mainclass>
+        <project.mainclass>cats.spm1.Class</project.mainclass>
     </properties>
     <build>
         <plugins>

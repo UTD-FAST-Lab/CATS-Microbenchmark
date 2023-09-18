@@ -16,7 +16,7 @@
     <properties>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
-        <project.mainclass>dp.Main</project.mainclass>
+        <project.mainclass>cats.dp1.dp.Main</project.mainclass>
     </properties>
     <build>
         <plugins>

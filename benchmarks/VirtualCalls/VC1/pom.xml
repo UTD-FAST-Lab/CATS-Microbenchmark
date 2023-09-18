@@ -15,7 +15,7 @@
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
-        <project.mainclass>vc.Class</project.mainclass>
+        <project.mainclass>cats.vc1.vc.Class</project.mainclass>
     </properties>
     <build>
         <plugins>

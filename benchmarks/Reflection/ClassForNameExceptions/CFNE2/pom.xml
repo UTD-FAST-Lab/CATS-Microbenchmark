@@ -15,7 +15,7 @@
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
-        <project.mainclass>cfne.Demo</project.mainclass>
+        <project.mainclass>cats.cfne2.cfne.Demo</project.mainclass>
     </properties>
     <build>
         <plugins>
