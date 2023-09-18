@@ -15,7 +15,7 @@
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
-        <project.mainclass>cats.nvc5.nvc.Demo</project.mainclass>
+        <project.mainclass>cats_microbenchmark.nvc5.nvc.Demo</project.mainclass>
     </properties>
     <build>
         <plugins>

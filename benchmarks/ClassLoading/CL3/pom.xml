@@ -15,7 +15,7 @@
     <properties>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
-        <project.mainclass>cats.cl3.cl.Demo</project.mainclass>
+        <project.mainclass>cats_microbenchmark.cl3.cl.Demo</project.mainclass>
     </properties>
     <build>
         <plugins>
