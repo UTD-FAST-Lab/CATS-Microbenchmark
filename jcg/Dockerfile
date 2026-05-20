@@ -106,7 +106,7 @@ RUN git clone https://github.com/plast-lab/doop.git $DOOP_DIR && \
 ARG JCG_BRANCH="feature/DynCG"
 ARG JCG_COMMIT_ID="a5dc5649fbfff38142db77996854d9e195edf14a"
 ARG JCG_DIR="/home/$USER/JCG"
-RUN echo "2"
+RUN echo "9"
 RUN git clone https://github.com/mohPYdev/JCG.git $JCG_DIR && \
     cd $JCG_DIR && \
     git checkout feature/boundary && \

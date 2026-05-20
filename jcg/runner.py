@@ -95,22 +95,33 @@ def boundary_generation(framework: str, algo: str, project: str):
     staticcg_path = config["TESTCASE_PATH"] / project / "staticcg" / project / framework / algo
     boundary_path = config["TESTCASE_PATH"] / project / "boundary" / framework / algo
 
-    if os.path.exists(boundary_path / "boundaries.json"):
-        return  # Boundary already generated, skip
+    # if os.path.exists(boundary_path / "boundaries.json"):
+    #     return  # Boundary already generated, skip
 
     if not os.path.exists(dyncg_path / "cg.json"):
         try:
             dynamic_callgraph(project)
         except Exception as e:
             print(f"Error occurred while generating dynamic call graph for {project}: {e}")
+
+
+    if not os.path.exists(dyncg_path / "cg.json"):
+        return (1, "dynamic")
+
+
     if not os.path.exists(staticcg_path / "cg.json"):
         try:
             static_callgraph(framework, algo, project)
         except Exception as e:
             print(f"Error occurred while generating static call graph for {project} with {framework} and {algo}: {e}")
 
+    if not os.path.exists(staticcg_path / "cg.json"):
+        return (1, f"static-{framework}-{algo}")
+
 
     os.makedirs(boundary_path, exist_ok=True)
+
+    mainClass = get_main_class(project)
     
     mounts = [
         (str(dyncg_path), "/dynamiccg", True),
@@ -124,6 +135,7 @@ def boundary_generation(framework: str, algo: str, project: str):
         "runMain", "CompareCGs",
         "--input1", "/staticcg/cg.json",
         "--input2", "/dynamiccg/cg.json",
+        "--mainClass", mainClass,
         "--output", "/output",
         "--showPrecisionRecall", "all",
         "--showBoundaries",
@@ -135,6 +147,8 @@ def boundary_generation(framework: str, algo: str, project: str):
         docker_run(config["BOUNDARY_CONTAINER"], config["JCG_IMAGE"], mounts, cmd)
     except Exception as e:
         print(f"Error occurred while generating boundary call graph for {project}: {e}")
+
+    return (0, "success")
 
 
 def project_build(project: str):
@@ -285,6 +299,17 @@ def create_jcg_conf(project: str, main_class: str):
         json.dump(conf_content, f, indent=4)
 
 
+def get_main_class(project: str):
+
+
+    conf_path = config["TESTCASE_PATH"] / project / "jcg.conf"
+
+    with open(conf_path) as f:
+        data = json.load(f)
+
+    return data['main']
+
+
 def collect_jars(root_dir, output_base="programs"):
     if not os.path.exists(root_dir):
         raise ValueError(f"Root directory does not exist: {root_dir}")
@@ -355,7 +380,11 @@ def main():
             dynamic_callgraph(args.project)
 
         elif args.type == "boundary":
-            boundary_generation(args.framework, args.algorithm, args.project)
+            code , text = boundary_generation(args.framework, args.algorithm, args.project)
+
+            if code == 1:
+                with open(config["BASE_DIR"] / "missed_projects.txt", "a") as f:
+                    f.write(project + "," + text + "\n")
 
 if __name__ == "__main__":
     main()
