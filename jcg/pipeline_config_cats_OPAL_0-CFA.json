@@ -7,7 +7,8 @@
             "sa_algorithm": "0-CFA",
             "sa_tool": "../tools/opal",
             "boundaries_file": "../input_data/cats/CL1/OPAL/0-CFA/boundaries.json",
-            "main_class": "cats_microbenchmark.cl1.demo.Demo"
+            "main_class": "cats_microbenchmark.cl1.demo.Demo",
+            "program_jar_path": "../programs/cats/CL1/CL1.jar"
         },
         {
             "program_name": "CL2",
@@ -16,7 +17,8 @@
             "sa_algorithm": "0-CFA",
             "sa_tool": "../tools/opal",
             "boundaries_file": "../input_data/cats/CL2/OPAL/0-CFA/boundaries.json",
-            "main_class": "cats_microbenchmark.cl2.demo.Main"
+            "main_class": "cats_microbenchmark.cl2.demo.Main",
+            "program_jar_path": "../programs/cats/CL2/CL2.jar"
         },
         {
             "program_name": "CL3",
@@ -25,7 +27,8 @@
             "sa_algorithm": "0-CFA",
             "sa_tool": "../tools/opal",
             "boundaries_file": "../input_data/cats/CL3/OPAL/0-CFA/boundaries.json",
-            "main_class": "cats_microbenchmark.cl3.cl.Demo"
+            "main_class": "cats_microbenchmark.cl3.cl.Demo",
+            "program_jar_path": "../programs/cats/CL3/CL3.jar"
         },
         {
             "program_name": "CL4",
@@ -34,7 +37,8 @@
             "sa_algorithm": "0-CFA",
             "sa_tool": "../tools/opal",
             "boundaries_file": "../input_data/cats/CL4/OPAL/0-CFA/boundaries.json",
-            "main_class": "cats_microbenchmark.cl4.Demo"
+            "main_class": "cats_microbenchmark.cl4.Demo",
+            "program_jar_path": "../programs/cats/CL4/CL4.jar"
         },
         {
             "program_name": "JVMC1",
@@ -43,7 +47,8 @@
             "sa_algorithm": "0-CFA",
             "sa_tool": "../tools/opal",
             "boundaries_file": "../input_data/cats/JVMC1/OPAL/0-CFA/boundaries.json",
-            "main_class": "cats_microbenchmark.jvmc1.jvmc.Demo"
+            "main_class": "cats_microbenchmark.jvmc1.jvmc.Demo",
+            "program_jar_path": "../programs/cats/JVMC1/JVMC1.jar"
         },
         {
             "program_name": "JVMC2",
@@ -52,7 +57,8 @@
             "sa_algorithm": "0-CFA",
             "sa_tool": "../tools/opal",
             "boundaries_file": "../input_data/cats/JVMC2/OPAL/0-CFA/boundaries.json",
-            "main_class": "cats_microbenchmark.jvmc2.jvmc.Demo"
+            "main_class": "cats_microbenchmark.jvmc2.jvmc.Demo",
+            "program_jar_path": "../programs/cats/JVMC2/JVMC2.jar"
         },
         {
             "program_name": "JVMC3",
@@ -61,7 +67,8 @@
             "sa_algorithm": "0-CFA",
             "sa_tool": "../tools/opal",
             "boundaries_file": "../input_data/cats/JVMC3/OPAL/0-CFA/boundaries.json",
-            "main_class": "cats_microbenchmark.jvmc3.jvmc.Demo"
+            "main_class": "cats_microbenchmark.jvmc3.jvmc.Demo",
+            "program_jar_path": "../programs/cats/JVMC3/JVMC3.jar"
         },
         {
             "program_name": "JVMC4",
@@ -70,7 +77,8 @@
             "sa_algorithm": "0-CFA",
             "sa_tool": "../tools/opal",
             "boundaries_file": "../input_data/cats/JVMC4/OPAL/0-CFA/boundaries.json",
-            "main_class": "cats_microbenchmark.jvmc4.jvmc.Demo"
+            "main_class": "cats_microbenchmark.jvmc4.jvmc.Demo",
+            "program_jar_path": "../programs/cats/JVMC4/JVMC4.jar"
         },
         {
             "program_name": "JVMC5",
@@ -79,7 +87,8 @@
             "sa_algorithm": "0-CFA",
             "sa_tool": "../tools/opal",
             "boundaries_file": "../input_data/cats/JVMC5/OPAL/0-CFA/boundaries.json",
-            "main_class": "cats_microbenchmark.jvmc5.jvmc.Demo"
+            "main_class": "cats_microbenchmark.jvmc5.jvmc.Demo",
+            "program_jar_path": "../programs/cats/JVMC5/JVMC5.jar"
         },
         {
             "program_name": "J8DIM1",
@@ -88,7 +97,8 @@
             "sa_algorithm": "0-CFA",
             "sa_tool": "../tools/opal",
             "boundaries_file": "../input_data/cats/J8DIM1/OPAL/0-CFA/boundaries.json",
-            "main_class": "cats_microbenchmark.j8dim1.j8dim.Class"
+            "main_class": "cats_microbenchmark.j8dim1.j8dim.Class",
+            "program_jar_path": "../programs/cats/J8DIM1/J8DIM1.jar"
         },
         {
             "program_name": "J8SIM1",
@@ -97,7 +107,8 @@
             "sa_algorithm": "0-CFA",
             "sa_tool": "../tools/opal",
             "boundaries_file": "../input_data/cats/J8SIM1/OPAL/0-CFA/boundaries.json",
-            "main_class": "cats_microbenchmark.j8sim1.j8sim.Class"
+            "main_class": "cats_microbenchmark.j8sim1.j8sim.Class",
+            "program_jar_path": "../programs/cats/J8SIM1/J8SIM1.jar"
         },
         {
             "program_name": "Lambda1",
@@ -106,7 +117,8 @@
             "sa_algorithm": "0-CFA",
             "sa_tool": "../tools/opal",
             "boundaries_file": "../input_data/cats/Lambda1/OPAL/0-CFA/boundaries.json",
-            "main_class": "cats_microbenchmark.lambda1.id.Class"
+            "main_class": "cats_microbenchmark.lambda1.id.Class",
+            "program_jar_path": "../programs/cats/Lambda1/Lambda1.jar"
         },
         {
             "program_name": "Lambda2",
@@ -115,7 +127,8 @@
             "sa_algorithm": "0-CFA",
             "sa_tool": "../tools/opal",
             "boundaries_file": "../input_data/cats/Lambda2/OPAL/0-CFA/boundaries.json",
-            "main_class": "cats_microbenchmark.lambda2.id.Class"
+            "main_class": "cats_microbenchmark.lambda2.id.Class",
+            "program_jar_path": "../programs/cats/Lambda2/Lambda2.jar"
         },
         {
             "program_name": "Lambda3",
@@ -124,7 +137,8 @@
             "sa_algorithm": "0-CFA",
             "sa_tool": "../tools/opal",
             "boundaries_file": "../input_data/cats/Lambda3/OPAL/0-CFA/boundaries.json",
-            "main_class": "cats_microbenchmark.lambda3.id.Class"
+            "main_class": "cats_microbenchmark.lambda3.id.Class",
+            "program_jar_path": "../programs/cats/Lambda3/Lambda3.jar"
         },
         {
             "program_name": "Lambda4",
@@ -133,7 +147,8 @@
             "sa_algorithm": "0-CFA",
             "sa_tool": "../tools/opal",
             "boundaries_file": "../input_data/cats/Lambda4/OPAL/0-CFA/boundaries.json",
-            "main_class": "cats_microbenchmark.lambda4.id.Class"
+            "main_class": "cats_microbenchmark.lambda4.id.Class",
+            "program_jar_path": "../programs/cats/Lambda4/Lambda4.jar"
         },
         {
             "program_name": "MR1",
@@ -142,7 +157,8 @@
             "sa_algorithm": "0-CFA",
             "sa_tool": "../tools/opal",
             "boundaries_file": "../input_data/cats/MR1/OPAL/0-CFA/boundaries.json",
-            "main_class": "cats.mr1.id.Class"
+            "main_class": "cats.mr1.id.Class",
+            "program_jar_path": "../programs/cats/MR1/MR1.jar"
         },
         {
             "program_name": "MR2",
@@ -151,7 +167,8 @@
             "sa_algorithm": "0-CFA",
             "sa_tool": "../tools/opal",
             "boundaries_file": "../input_data/cats/MR2/OPAL/0-CFA/boundaries.json",
-            "main_class": "cats.mr2.id.Class"
+            "main_class": "cats.mr2.id.Class",
+            "program_jar_path": "../programs/cats/MR2/MR2.jar"
         },
         {
             "program_name": "MR3",
@@ -160,7 +177,8 @@
             "sa_algorithm": "0-CFA",
             "sa_tool": "../tools/opal",
             "boundaries_file": "../input_data/cats/MR3/OPAL/0-CFA/boundaries.json",
-            "main_class": "cats.mr3.id.Class"
+            "main_class": "cats.mr3.id.Class",
+            "program_jar_path": "../programs/cats/MR3/MR3.jar"
         },
         {
             "program_name": "MR4",
@@ -169,7 +187,8 @@
             "sa_algorithm": "0-CFA",
             "sa_tool": "../tools/opal",
             "boundaries_file": "../input_data/cats/MR4/OPAL/0-CFA/boundaries.json",
-            "main_class": "cats.mr4.id.Class"
+            "main_class": "cats.mr4.id.Class",
+            "program_jar_path": "../programs/cats/MR4/MR4.jar"
         },
         {
             "program_name": "MR5",
@@ -178,7 +197,8 @@
             "sa_algorithm": "0-CFA",
             "sa_tool": "../tools/opal",
             "boundaries_file": "../input_data/cats/MR5/OPAL/0-CFA/boundaries.json",
-            "main_class": "id.Class"
+            "main_class": "id.Class",
+            "program_jar_path": "../programs/cats/MR5/MR5.jar"
         },
         {
             "program_name": "MR6",
@@ -187,7 +207,8 @@
             "sa_algorithm": "0-CFA",
             "sa_tool": "../tools/opal",
             "boundaries_file": "../input_data/cats/MR6/OPAL/0-CFA/boundaries.json",
-            "main_class": "id.Class"
+            "main_class": "id.Class",
+            "program_jar_path": "../programs/cats/MR6/MR6.jar"
         },
         {
             "program_name": "MR7",
@@ -196,7 +217,8 @@
             "sa_algorithm": "0-CFA",
             "sa_tool": "../tools/opal",
             "boundaries_file": "../input_data/cats/MR7/OPAL/0-CFA/boundaries.json",
-            "main_class": "id.Class"
+            "main_class": "id.Class",
+            "program_jar_path": "../programs/cats/MR7/MR7.jar"
         },
         {
             "program_name": "NVC1",
@@ -205,7 +227,8 @@
             "sa_algorithm": "0-CFA",
             "sa_tool": "../tools/opal",
             "boundaries_file": "../input_data/cats/NVC1/OPAL/0-CFA/boundaries.json",
-            "main_class": "cats_microbenchmark.nvc1.nvc.Class"
+            "main_class": "cats_microbenchmark.nvc1.nvc.Class",
+            "program_jar_path": "../programs/cats/NVC1/NVC1.jar"
         },
         {
             "program_name": "NVC2",
@@ -214,7 +237,8 @@
             "sa_algorithm": "0-CFA",
             "sa_tool": "../tools/opal",
             "boundaries_file": "../input_data/cats/NVC2/OPAL/0-CFA/boundaries.json",
-            "main_class": "cats_microbenchmark.nvc2.nvc.Class"
+            "main_class": "cats_microbenchmark.nvc2.nvc.Class",
+            "program_jar_path": "../programs/cats/NVC2/NVC2.jar"
         },
         {
             "program_name": "NVC3",
@@ -223,7 +247,8 @@
             "sa_algorithm": "0-CFA",
             "sa_tool": "../tools/opal",
             "boundaries_file": "../input_data/cats/NVC3/OPAL/0-CFA/boundaries.json",
-            "main_class": "cats_microbenchmark.nvc3.nvc.Class"
+            "main_class": "cats_microbenchmark.nvc3.nvc.Class",
+            "program_jar_path": "../programs/cats/NVC3/NVC3.jar"
         },
         {
             "program_name": "NVC4",
@@ -232,7 +257,8 @@
             "sa_algorithm": "0-CFA",
             "sa_tool": "../tools/opal",
             "boundaries_file": "../input_data/cats/NVC4/OPAL/0-CFA/boundaries.json",
-            "main_class": "cats_microbenchmark.nvc4.nvc.Class"
+            "main_class": "cats_microbenchmark.nvc4.nvc.Class",
+            "program_jar_path": "../programs/cats/NVC4/NVC4.jar"
         },
         {
             "program_name": "NVC5",
@@ -241,7 +267,8 @@
             "sa_algorithm": "0-CFA",
             "sa_tool": "../tools/opal",
             "boundaries_file": "../input_data/cats/NVC5/OPAL/0-CFA/boundaries.json",
-            "main_class": "cats_microbenchmark.nvc5.nvc.Demo"
+            "main_class": "cats_microbenchmark.nvc5.nvc.Demo",
+            "program_jar_path": "../programs/cats/NVC5/NVC5.jar"
         },
         {
             "program_name": "CFNE1",
@@ -250,7 +277,8 @@
             "sa_algorithm": "0-CFA",
             "sa_tool": "../tools/opal",
             "boundaries_file": "../input_data/cats/CFNE1/OPAL/0-CFA/boundaries.json",
-            "main_class": "cats.cfne1.cfne.Demo"
+            "main_class": "cats.cfne1.cfne.Demo",
+            "program_jar_path": "../programs/cats/CFNE1/CFNE1.jar"
         },
         {
             "program_name": "CFNE2",
@@ -259,7 +287,8 @@
             "sa_algorithm": "0-CFA",
             "sa_tool": "../tools/opal",
             "boundaries_file": "../input_data/cats/CFNE2/OPAL/0-CFA/boundaries.json",
-            "main_class": "cats.cfne2.cfne.Demo"
+            "main_class": "cats.cfne2.cfne.Demo",
+            "program_jar_path": "../programs/cats/CFNE2/CFNE2.jar"
         },
         {
             "program_name": "CFNE3",
@@ -268,7 +297,8 @@
             "sa_algorithm": "0-CFA",
             "sa_tool": "../tools/opal",
             "boundaries_file": "../input_data/cats/CFNE3/OPAL/0-CFA/boundaries.json",
-            "main_class": "cats.cfne3.cfne.Demo"
+            "main_class": "cats.cfne3.cfne.Demo",
+            "program_jar_path": "../programs/cats/CFNE3/CFNE3.jar"
         },
         {
             "program_name": "CFNE4",
@@ -277,7 +307,8 @@
             "sa_algorithm": "0-CFA",
             "sa_tool": "../tools/opal",
             "boundaries_file": "../input_data/cats/CFNE4/OPAL/0-CFA/boundaries.json",
-            "main_class": "cats.cfne4.cfne.Demo"
+            "main_class": "cats.cfne4.cfne.Demo",
+            "program_jar_path": "../programs/cats/CFNE4/CFNE4.jar"
         },
         {
             "program_name": "CSR2",
@@ -286,7 +317,8 @@
             "sa_algorithm": "0-CFA",
             "sa_tool": "../tools/opal",
             "boundaries_file": "../input_data/cats/CSR2/OPAL/0-CFA/boundaries.json",
-            "main_class": "cats.csr2.csr.Demo"
+            "main_class": "cats.csr2.csr.Demo",
+            "program_jar_path": "../programs/cats/CSR2/CSR2.jar"
         },
         {
             "program_name": "CSR3",
@@ -295,7 +327,8 @@
             "sa_algorithm": "0-CFA",
             "sa_tool": "../tools/opal",
             "boundaries_file": "../input_data/cats/CSR3/OPAL/0-CFA/boundaries.json",
-            "main_class": "cats.csr3.csr.Demo"
+            "main_class": "cats.csr3.csr.Demo",
+            "program_jar_path": "../programs/cats/CSR3/CSR3.jar"
         },
         {
             "program_name": "CSR4",
@@ -304,7 +337,8 @@
             "sa_algorithm": "0-CFA",
             "sa_tool": "../tools/opal",
             "boundaries_file": "../input_data/cats/CSR4/OPAL/0-CFA/boundaries.json",
-            "main_class": "cats.csr4.csr.Demo"
+            "main_class": "cats.csr4.csr.Demo",
+            "program_jar_path": "../programs/cats/CSR4/CSR4.jar"
         },
         {
             "program_name": "LRR1",
@@ -313,7 +347,8 @@
             "sa_algorithm": "0-CFA",
             "sa_tool": "../tools/opal",
             "boundaries_file": "../input_data/cats/LRR1/OPAL/0-CFA/boundaries.json",
-            "main_class": "cats.lrr1.lrr.Demo"
+            "main_class": "cats.lrr1.lrr.Demo",
+            "program_jar_path": "../programs/cats/LRR1/LRR1.jar"
         },
         {
             "program_name": "LRR2",
@@ -322,7 +357,8 @@
             "sa_algorithm": "0-CFA",
             "sa_tool": "../tools/opal",
             "boundaries_file": "../input_data/cats/LRR2/OPAL/0-CFA/boundaries.json",
-            "main_class": "cats.lrr2.lrr.Demo"
+            "main_class": "cats.lrr2.lrr.Demo",
+            "program_jar_path": "../programs/cats/LRR2/LRR2.jar"
         },
         {
             "program_name": "LRR3",
@@ -331,7 +367,8 @@
             "sa_algorithm": "0-CFA",
             "sa_tool": "../tools/opal",
             "boundaries_file": "../input_data/cats/LRR3/OPAL/0-CFA/boundaries.json",
-            "main_class": "cats.lrr3.lrr.Demo"
+            "main_class": "cats.lrr3.lrr.Demo",
+            "program_jar_path": "../programs/cats/LRR3/LRR3.jar"
         },
         {
             "program_name": "TR2",
@@ -340,7 +377,8 @@
             "sa_algorithm": "0-CFA",
             "sa_tool": "../tools/opal",
             "boundaries_file": "../input_data/cats/TR2/OPAL/0-CFA/boundaries.json",
-            "main_class": "cats.tr2.tr.Demo"
+            "main_class": "cats.tr2.tr.Demo",
+            "program_jar_path": "../programs/cats/TR2/TR2.jar"
         },
         {
             "program_name": "TR3",
@@ -349,7 +387,8 @@
             "sa_algorithm": "0-CFA",
             "sa_tool": "../tools/opal",
             "boundaries_file": "../input_data/cats/TR3/OPAL/0-CFA/boundaries.json",
-            "main_class": "cats.tr3.tr.Demo"
+            "main_class": "cats.tr3.tr.Demo",
+            "program_jar_path": "../programs/cats/TR3/TR3.jar"
         },
         {
             "program_name": "TR4",
@@ -358,7 +397,8 @@
             "sa_algorithm": "0-CFA",
             "sa_tool": "../tools/opal",
             "boundaries_file": "../input_data/cats/TR4/OPAL/0-CFA/boundaries.json",
-            "main_class": "cats.tr4.tr.Demo"
+            "main_class": "cats.tr4.tr.Demo",
+            "program_jar_path": "../programs/cats/TR4/TR4.jar"
         },
         {
             "program_name": "TR5",
@@ -367,7 +407,8 @@
             "sa_algorithm": "0-CFA",
             "sa_tool": "../tools/opal",
             "boundaries_file": "../input_data/cats/TR5/OPAL/0-CFA/boundaries.json",
-            "main_class": "cats.tr5.tr.Demo"
+            "main_class": "cats.tr5.tr.Demo",
+            "program_jar_path": "../programs/cats/TR5/TR5.jar"
         },
         {
             "program_name": "TR6",
@@ -376,7 +417,8 @@
             "sa_algorithm": "0-CFA",
             "sa_tool": "../tools/opal",
             "boundaries_file": "../input_data/cats/TR6/OPAL/0-CFA/boundaries.json",
-            "main_class": "cats.tr6.tr.Demo"
+            "main_class": "cats.tr6.tr.Demo",
+            "program_jar_path": "../programs/cats/TR6/TR6.jar"
         },
         {
             "program_name": "TR7",
@@ -385,7 +427,8 @@
             "sa_algorithm": "0-CFA",
             "sa_tool": "../tools/opal",
             "boundaries_file": "../input_data/cats/TR7/OPAL/0-CFA/boundaries.json",
-            "main_class": "cats.tr7.tr.Demo"
+            "main_class": "cats.tr7.tr.Demo",
+            "program_jar_path": "../programs/cats/TR7/TR7.jar"
         },
         {
             "program_name": "TR8",
@@ -394,7 +437,8 @@
             "sa_algorithm": "0-CFA",
             "sa_tool": "../tools/opal",
             "boundaries_file": "../input_data/cats/TR8/OPAL/0-CFA/boundaries.json",
-            "main_class": "cats.tr8.tr.Demo"
+            "main_class": "cats.tr8.tr.Demo",
+            "program_jar_path": "../programs/cats/TR8/TR8.jar"
         },
         {
             "program_name": "TR9",
@@ -403,7 +447,8 @@
             "sa_algorithm": "0-CFA",
             "sa_tool": "../tools/opal",
             "boundaries_file": "../input_data/cats/TR9/OPAL/0-CFA/boundaries.json",
-            "main_class": "cats.tr9.tr.Demo"
+            "main_class": "cats.tr9.tr.Demo",
+            "program_jar_path": "../programs/cats/TR9/TR9.jar"
         },
         {
             "program_name": "ExtSer1",
@@ -412,7 +457,8 @@
             "sa_algorithm": "0-CFA",
             "sa_tool": "../tools/opal",
             "boundaries_file": "../input_data/cats/ExtSer1/OPAL/0-CFA/boundaries.json",
-            "main_class": "cats.extser1.extser.Demo"
+            "main_class": "cats.extser1.extser.Demo",
+            "program_jar_path": "../programs/cats/ExtSer1/ExtSer1.jar"
         },
         {
             "program_name": "ExtSer2",
@@ -421,7 +467,8 @@
             "sa_algorithm": "0-CFA",
             "sa_tool": "../tools/opal",
             "boundaries_file": "../input_data/cats/ExtSer2/OPAL/0-CFA/boundaries.json",
-            "main_class": "cats.extser2.extser.Demo"
+            "main_class": "cats.extser2.extser.Demo",
+            "program_jar_path": "../programs/cats/ExtSer2/ExtSer2.jar"
         },
         {
             "program_name": "ExtSer3",
@@ -430,7 +477,8 @@
             "sa_algorithm": "0-CFA",
             "sa_tool": "../tools/opal",
             "boundaries_file": "../input_data/cats/ExtSer3/OPAL/0-CFA/boundaries.json",
-            "main_class": "cats.extser3.extser.Demo"
+            "main_class": "cats.extser3.extser.Demo",
+            "program_jar_path": "../programs/cats/ExtSer3/ExtSer3.jar"
         },
         {
             "program_name": "Ser1",
@@ -439,7 +487,8 @@
             "sa_algorithm": "0-CFA",
             "sa_tool": "../tools/opal",
             "boundaries_file": "../input_data/cats/Ser1/OPAL/0-CFA/boundaries.json",
-            "main_class": "cats.ser1.ser.Demo"
+            "main_class": "cats.ser1.ser.Demo",
+            "program_jar_path": "../programs/cats/Ser1/Ser1.jar"
         },
         {
             "program_name": "Ser2",
@@ -448,7 +497,8 @@
             "sa_algorithm": "0-CFA",
             "sa_tool": "../tools/opal",
             "boundaries_file": "../input_data/cats/Ser2/OPAL/0-CFA/boundaries.json",
-            "main_class": "cats.ser2.ser.Demo"
+            "main_class": "cats.ser2.ser.Demo",
+            "program_jar_path": "../programs/cats/Ser2/Ser2.jar"
         },
         {
             "program_name": "Ser3",
@@ -457,7 +507,8 @@
             "sa_algorithm": "0-CFA",
             "sa_tool": "../tools/opal",
             "boundaries_file": "../input_data/cats/Ser3/OPAL/0-CFA/boundaries.json",
-            "main_class": "cats.ser3.ser.Demo"
+            "main_class": "cats.ser3.ser.Demo",
+            "program_jar_path": "../programs/cats/Ser3/Ser3.jar"
         },
         {
             "program_name": "Ser4",
@@ -466,7 +517,8 @@
             "sa_algorithm": "0-CFA",
             "sa_tool": "../tools/opal",
             "boundaries_file": "../input_data/cats/Ser4/OPAL/0-CFA/boundaries.json",
-            "main_class": "cats.ser4.ser.Demo"
+            "main_class": "cats.ser4.ser.Demo",
+            "program_jar_path": "../programs/cats/Ser4/Ser4.jar"
         },
         {
             "program_name": "Ser5",
@@ -475,7 +527,8 @@
             "sa_algorithm": "0-CFA",
             "sa_tool": "../tools/opal",
             "boundaries_file": "../input_data/cats/Ser5/OPAL/0-CFA/boundaries.json",
-            "main_class": "cats.ser5.ser.Demo"
+            "main_class": "cats.ser5.ser.Demo",
+            "program_jar_path": "../programs/cats/Ser5/Ser5.jar"
         },
         {
             "program_name": "Ser6",
@@ -484,7 +537,8 @@
             "sa_algorithm": "0-CFA",
             "sa_tool": "../tools/opal",
             "boundaries_file": "../input_data/cats/Ser6/OPAL/0-CFA/boundaries.json",
-            "main_class": "cats.ser6.ser.Demo"
+            "main_class": "cats.ser6.ser.Demo",
+            "program_jar_path": "../programs/cats/Ser6/Ser6.jar"
         },
         {
             "program_name": "Ser7",
@@ -493,7 +547,8 @@
             "sa_algorithm": "0-CFA",
             "sa_tool": "../tools/opal",
             "boundaries_file": "../input_data/cats/Ser7/OPAL/0-CFA/boundaries.json",
-            "main_class": "cats.ser7.ser.Demo"
+            "main_class": "cats.ser7.ser.Demo",
+            "program_jar_path": "../programs/cats/Ser7/Ser7.jar"
         },
         {
             "program_name": "Ser8",
@@ -502,7 +557,8 @@
             "sa_algorithm": "0-CFA",
             "sa_tool": "../tools/opal",
             "boundaries_file": "../input_data/cats/Ser8/OPAL/0-CFA/boundaries.json",
-            "main_class": "cats.ser8.ser.Demo"
+            "main_class": "cats.ser8.ser.Demo",
+            "program_jar_path": "../programs/cats/Ser8/Ser8.jar"
         },
         {
             "program_name": "Ser9",
@@ -511,7 +567,8 @@
             "sa_algorithm": "0-CFA",
             "sa_tool": "../tools/opal",
             "boundaries_file": "../input_data/cats/Ser9/OPAL/0-CFA/boundaries.json",
-            "main_class": "cats.ser9.ser.Demo"
+            "main_class": "cats.ser9.ser.Demo",
+            "program_jar_path": "../programs/cats/Ser9/Ser9.jar"
         },
         {
             "program_name": "SPM2",
@@ -520,7 +577,8 @@
             "sa_algorithm": "0-CFA",
             "sa_tool": "../tools/opal",
             "boundaries_file": "../input_data/cats/SPM2/OPAL/0-CFA/boundaries.json",
-            "main_class": "cats.spm2.Class"
+            "main_class": "cats.spm2.Class",
+            "program_jar_path": "../programs/cats/SPM2/SPM2.jar"
         },
         {
             "program_name": "SPM3",
@@ -529,7 +587,8 @@
             "sa_algorithm": "0-CFA",
             "sa_tool": "../tools/opal",
             "boundaries_file": "../input_data/cats/SPM3/OPAL/0-CFA/boundaries.json",
-            "main_class": "cats.spm3.Class"
+            "main_class": "cats.spm3.Class",
+            "program_jar_path": "../programs/cats/SPM3/SPM3.jar"
         },
         {
             "program_name": "SI4",
@@ -538,7 +597,8 @@
             "sa_algorithm": "0-CFA",
             "sa_tool": "../tools/opal",
             "boundaries_file": "../input_data/cats/SI4/OPAL/0-CFA/boundaries.json",
-            "main_class": "cats.si4.si.Demo"
+            "main_class": "cats.si4.si.Demo",
+            "program_jar_path": "../programs/cats/SI4/SI4.jar"
         },
         {
             "program_name": "SI5",
@@ -547,7 +607,8 @@
             "sa_algorithm": "0-CFA",
             "sa_tool": "../tools/opal",
             "boundaries_file": "../input_data/cats/SI5/OPAL/0-CFA/boundaries.json",
-            "main_class": "cats.si5.si.Main"
+            "main_class": "cats.si5.si.Main",
+            "program_jar_path": "../programs/cats/SI5/SI5.jar"
         },
         {
             "program_name": "SI6",
@@ -556,7 +617,8 @@
             "sa_algorithm": "0-CFA",
             "sa_tool": "../tools/opal",
             "boundaries_file": "../input_data/cats/SI6/OPAL/0-CFA/boundaries.json",
-            "main_class": "cats.si6.si.Main"
+            "main_class": "cats.si6.si.Main",
+            "program_jar_path": "../programs/cats/SI6/SI6.jar"
         },
         {
             "program_name": "SI7",
@@ -565,7 +627,8 @@
             "sa_algorithm": "0-CFA",
             "sa_tool": "../tools/opal",
             "boundaries_file": "../input_data/cats/SI7/OPAL/0-CFA/boundaries.json",
-            "main_class": "cats.si7.si.Main"
+            "main_class": "cats.si7.si.Main",
+            "program_jar_path": "../programs/cats/SI7/SI7.jar"
         },
         {
             "program_name": "SI8",
@@ -574,7 +637,8 @@
             "sa_algorithm": "0-CFA",
             "sa_tool": "../tools/opal",
             "boundaries_file": "../input_data/cats/SI8/OPAL/0-CFA/boundaries.json",
-            "main_class": "cats.si8.si.Main"
+            "main_class": "cats.si8.si.Main",
+            "program_jar_path": "../programs/cats/SI8/SI8.jar"
         },
         {
             "program_name": "TMR1",
@@ -583,7 +647,8 @@
             "sa_algorithm": "0-CFA",
             "sa_tool": "../tools/opal",
             "boundaries_file": "../input_data/cats/TMR1/OPAL/0-CFA/boundaries.json",
-            "main_class": "cats.tmr1.tmr.Demo"
+            "main_class": "cats.tmr1.tmr.Demo",
+            "program_jar_path": "../programs/cats/TMR1/TMR1.jar"
         },
         {
             "program_name": "TMR2",
@@ -592,7 +657,8 @@
             "sa_algorithm": "0-CFA",
             "sa_tool": "../tools/opal",
             "boundaries_file": "../input_data/cats/TMR2/OPAL/0-CFA/boundaries.json",
-            "main_class": "cats.tmr2.tmr.Demo"
+            "main_class": "cats.tmr2.tmr.Demo",
+            "program_jar_path": "../programs/cats/TMR2/TMR2.jar"
         },
         {
             "program_name": "TMR3",
@@ -601,7 +667,8 @@
             "sa_algorithm": "0-CFA",
             "sa_tool": "../tools/opal",
             "boundaries_file": "../input_data/cats/TMR3/OPAL/0-CFA/boundaries.json",
-            "main_class": "cats.tmr3.tmr.Demo"
+            "main_class": "cats.tmr3.tmr.Demo",
+            "program_jar_path": "../programs/cats/TMR3/TMR3.jar"
         },
         {
             "program_name": "TMR4",
@@ -610,7 +677,8 @@
             "sa_algorithm": "0-CFA",
             "sa_tool": "../tools/opal",
             "boundaries_file": "../input_data/cats/TMR4/OPAL/0-CFA/boundaries.json",
-            "main_class": "cats.tmr4.tmr.Demo"
+            "main_class": "cats.tmr4.tmr.Demo",
+            "program_jar_path": "../programs/cats/TMR4/TMR4.jar"
         },
         {
             "program_name": "TMR5",
@@ -619,7 +687,8 @@
             "sa_algorithm": "0-CFA",
             "sa_tool": "../tools/opal",
             "boundaries_file": "../input_data/cats/TMR5/OPAL/0-CFA/boundaries.json",
-            "main_class": "cats.tmr5.tmr.Demo"
+            "main_class": "cats.tmr5.tmr.Demo",
+            "program_jar_path": "../programs/cats/TMR5/TMR5.jar"
         },
         {
             "program_name": "TMR6",
@@ -628,7 +697,8 @@
             "sa_algorithm": "0-CFA",
             "sa_tool": "../tools/opal",
             "boundaries_file": "../input_data/cats/TMR6/OPAL/0-CFA/boundaries.json",
-            "main_class": "cats.tmr6.tmr.Demo"
+            "main_class": "cats.tmr6.tmr.Demo",
+            "program_jar_path": "../programs/cats/TMR6/TMR6.jar"
         },
         {
             "program_name": "TMR7",
@@ -637,7 +707,8 @@
             "sa_algorithm": "0-CFA",
             "sa_tool": "../tools/opal",
             "boundaries_file": "../input_data/cats/TMR7/OPAL/0-CFA/boundaries.json",
-            "main_class": "cats.tmr7.tmr.Demo"
+            "main_class": "cats.tmr7.tmr.Demo",
+            "program_jar_path": "../programs/cats/TMR7/TMR7.jar"
         },
         {
             "program_name": "TMR8",
@@ -646,7 +717,8 @@
             "sa_algorithm": "0-CFA",
             "sa_tool": "../tools/opal",
             "boundaries_file": "../input_data/cats/TMR8/OPAL/0-CFA/boundaries.json",
-            "main_class": "cats.tmr8.tmr.Demo"
+            "main_class": "cats.tmr8.tmr.Demo",
+            "program_jar_path": "../programs/cats/TMR8/TMR8.jar"
         },
         {
             "program_name": "TC1",
@@ -655,7 +727,8 @@
             "sa_algorithm": "0-CFA",
             "sa_tool": "../tools/opal",
             "boundaries_file": "../input_data/cats/TC1/OPAL/0-CFA/boundaries.json",
-            "main_class": "cats.tc1.simplecast.Demo"
+            "main_class": "cats.tc1.simplecast.Demo",
+            "program_jar_path": "../programs/cats/TC1/TC1.jar"
         },
         {
             "program_name": "TC2",
@@ -664,7 +737,8 @@
             "sa_algorithm": "0-CFA",
             "sa_tool": "../tools/opal",
             "boundaries_file": "../input_data/cats/TC2/OPAL/0-CFA/boundaries.json",
-            "main_class": "cats.tc2.castclassapi.Demo"
+            "main_class": "cats.tc2.castclassapi.Demo",
+            "program_jar_path": "../programs/cats/TC2/TC2.jar"
         },
         {
             "program_name": "TC3",
@@ -673,7 +747,8 @@
             "sa_algorithm": "0-CFA",
             "sa_tool": "../tools/opal",
             "boundaries_file": "../input_data/cats/TC3/OPAL/0-CFA/boundaries.json",
-            "main_class": "cats.tc3.classeq.Demo"
+            "main_class": "cats.tc3.classeq.Demo",
+            "program_jar_path": "../programs/cats/TC3/TC3.jar"
         },
         {
             "program_name": "TC4",
@@ -682,7 +757,8 @@
             "sa_algorithm": "0-CFA",
             "sa_tool": "../tools/opal",
             "boundaries_file": "../input_data/cats/TC4/OPAL/0-CFA/boundaries.json",
-            "main_class": "cats.tc4.instanceofcheck.Demo"
+            "main_class": "cats.tc4.instanceofcheck.Demo",
+            "program_jar_path": "../programs/cats/TC4/TC4.jar"
         },
         {
             "program_name": "TC5",
@@ -691,7 +767,8 @@
             "sa_algorithm": "0-CFA",
             "sa_tool": "../tools/opal",
             "boundaries_file": "../input_data/cats/TC5/OPAL/0-CFA/boundaries.json",
-            "main_class": "cats.tc5.instanceofclassapi.Demo"
+            "main_class": "cats.tc5.instanceofclassapi.Demo",
+            "program_jar_path": "../programs/cats/TC5/TC5.jar"
         },
         {
             "program_name": "TC6",
@@ -700,7 +777,8 @@
             "sa_algorithm": "0-CFA",
             "sa_tool": "../tools/opal",
             "boundaries_file": "../input_data/cats/TC6/OPAL/0-CFA/boundaries.json",
-            "main_class": "cats.tc6.tc.Demo"
+            "main_class": "cats.tc6.tc.Demo",
+            "program_jar_path": "../programs/cats/TC6/TC6.jar"
         },
         {
             "program_name": "Unsafe1",
@@ -709,7 +787,8 @@
             "sa_algorithm": "0-CFA",
             "sa_tool": "../tools/opal",
             "boundaries_file": "../input_data/cats/Unsafe1/OPAL/0-CFA/boundaries.json",
-            "main_class": "cats.unsafe1.unsafe.Demo"
+            "main_class": "cats.unsafe1.unsafe.Demo",
+            "program_jar_path": "../programs/cats/Unsafe1/Unsafe1.jar"
         },
         {
             "program_name": "Unsafe2",
@@ -718,7 +797,8 @@
             "sa_algorithm": "0-CFA",
             "sa_tool": "../tools/opal",
             "boundaries_file": "../input_data/cats/Unsafe2/OPAL/0-CFA/boundaries.json",
-            "main_class": "cats.unsafe2.unsafe.Demo"
+            "main_class": "cats.unsafe2.unsafe.Demo",
+            "program_jar_path": "../programs/cats/Unsafe2/Unsafe2.jar"
         },
         {
             "program_name": "Unsafe3",
@@ -727,7 +807,8 @@
             "sa_algorithm": "0-CFA",
             "sa_tool": "../tools/opal",
             "boundaries_file": "../input_data/cats/Unsafe3/OPAL/0-CFA/boundaries.json",
-            "main_class": "cats.unsafe3.unsafe.Demo"
+            "main_class": "cats.unsafe3.unsafe.Demo",
+            "program_jar_path": "../programs/cats/Unsafe3/Unsafe3.jar"
         },
         {
             "program_name": "Unsafe4",
@@ -736,7 +817,8 @@
             "sa_algorithm": "0-CFA",
             "sa_tool": "../tools/opal",
             "boundaries_file": "../input_data/cats/Unsafe4/OPAL/0-CFA/boundaries.json",
-            "main_class": "cats.unsafe4.unsafe.Demo"
+            "main_class": "cats.unsafe4.unsafe.Demo",
+            "program_jar_path": "../programs/cats/Unsafe4/Unsafe4.jar"
         },
         {
             "program_name": "Unsafe5",
@@ -745,7 +827,8 @@
             "sa_algorithm": "0-CFA",
             "sa_tool": "../tools/opal",
             "boundaries_file": "../input_data/cats/Unsafe5/OPAL/0-CFA/boundaries.json",
-            "main_class": "cats.unsafe5.unsafe.Demo"
+            "main_class": "cats.unsafe5.unsafe.Demo",
+            "program_jar_path": "../programs/cats/Unsafe5/Unsafe5.jar"
         },
         {
             "program_name": "Unsafe6",
@@ -754,7 +837,8 @@
             "sa_algorithm": "0-CFA",
             "sa_tool": "../tools/opal",
             "boundaries_file": "../input_data/cats/Unsafe6/OPAL/0-CFA/boundaries.json",
-            "main_class": "cats.unsafe6.unsafe.Demo"
+            "main_class": "cats.unsafe6.unsafe.Demo",
+            "program_jar_path": "../programs/cats/Unsafe6/Unsafe6.jar"
         },
         {
             "program_name": "Unsafe7",
@@ -763,7 +847,8 @@
             "sa_algorithm": "0-CFA",
             "sa_tool": "../tools/opal",
             "boundaries_file": "../input_data/cats/Unsafe7/OPAL/0-CFA/boundaries.json",
-            "main_class": "cats.unsafe7.unsafe.Demo"
+            "main_class": "cats.unsafe7.unsafe.Demo",
+            "program_jar_path": "../programs/cats/Unsafe7/Unsafe7.jar"
         },
         {
             "program_name": "VC1",
@@ -772,7 +857,8 @@
             "sa_algorithm": "0-CFA",
             "sa_tool": "../tools/opal",
             "boundaries_file": "../input_data/cats/VC1/OPAL/0-CFA/boundaries.json",
-            "main_class": "cats.vc1.vc.Class"
+            "main_class": "cats.vc1.vc.Class",
+            "program_jar_path": "../programs/cats/VC1/VC1.jar"
         },
         {
             "program_name": "VC2",
@@ -781,7 +867,8 @@
             "sa_algorithm": "0-CFA",
             "sa_tool": "../tools/opal",
             "boundaries_file": "../input_data/cats/VC2/OPAL/0-CFA/boundaries.json",
-            "main_class": "cats.vc2.vc.Class"
+            "main_class": "cats.vc2.vc.Class",
+            "program_jar_path": "../programs/cats/VC2/VC2.jar"
         },
         {
             "program_name": "VC3",
@@ -790,7 +877,8 @@
             "sa_algorithm": "0-CFA",
             "sa_tool": "../tools/opal",
             "boundaries_file": "../input_data/cats/VC3/OPAL/0-CFA/boundaries.json",
-            "main_class": "cats.vc3.vc.Class"
+            "main_class": "cats.vc3.vc.Class",
+            "program_jar_path": "../programs/cats/VC3/VC3.jar"
         },
         {
             "program_name": "VC4",
@@ -799,7 +887,8 @@
             "sa_algorithm": "0-CFA",
             "sa_tool": "../tools/opal",
             "boundaries_file": "../input_data/cats/VC4/OPAL/0-CFA/boundaries.json",
-            "main_class": "cats.vc4.vc.Class"
+            "main_class": "cats.vc4.vc.Class",
+            "program_jar_path": "../programs/cats/VC4/VC4.jar"
         }
     ]
 }

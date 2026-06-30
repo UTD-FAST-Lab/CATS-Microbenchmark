@@ -51,7 +51,8 @@ def main():
             print(f"Skipping {program} because boundaries.json is missing or empty.")
             missed += 1
             continue
-
+        
+        program_jar_path = TEST_CASE_PATH / program / f"{program}.jar"
         main_class = get_main_class(program, TEST_CASE_PATH)
 
         config =  {
@@ -61,7 +62,8 @@ def main():
             "sa_algorithm":    args.algorithm,
             "sa_tool":         f"../tools/{args.framework.lower()}",
             "boundaries_file": f"../input_data/{bench}/{program}/{args.framework}/{args.algorithm}/boundaries.json",
-            "main_class": main_class
+            "main_class": main_class,
+            "program_jar_path": f"../programs/{bench}/{program}/{program}.jar"
         }
 
         configs.append(config)
@@ -70,8 +72,8 @@ def main():
     
     print(f"Generated config for {len(configs)} programs. Skipped {missed} programs due to missing or empty boundaries.json.")
     
-    # with open(BASE_PATH / 'jcg' / f'pipeline_config_{bench}_{args.framework}_{args.algorithm}.json', 'w') as f:
-    #     json.dump(data, f, indent=4)
+    with open(BASE_PATH / 'jcg' / f'pipeline_config_{bench}_{args.framework}_{args.algorithm}.json', 'w') as f:
+        json.dump(data, f, indent=4)
 
 if __name__ == '__main__':
     main()

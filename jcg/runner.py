@@ -98,22 +98,22 @@ def boundary_generation(framework: str, algo: str, project: str):
     # if os.path.exists(boundary_path / "boundaries.json"):
     #     return  # Boundary already generated, skip
 
-    if not os.path.exists(dyncg_path / "cg.json"):
-        try:
-            dynamic_callgraph(project)
-        except Exception as e:
-            print(f"Error occurred while generating dynamic call graph for {project}: {e}")
+    # if not os.path.exists(dyncg_path / "cg.json"):
+    #     try:
+    #         dynamic_callgraph(project)
+    #     except Exception as e:
+    #         print(f"Error occurred while generating dynamic call graph for {project}: {e}")
 
 
     if not os.path.exists(dyncg_path / "cg.json"):
         return (1, "dynamic")
 
 
-    if not os.path.exists(staticcg_path / "cg.json"):
-        try:
-            static_callgraph(framework, algo, project)
-        except Exception as e:
-            print(f"Error occurred while generating static call graph for {project} with {framework} and {algo}: {e}")
+    # if not os.path.exists(staticcg_path / "cg.json"):
+    #     try:
+    #         static_callgraph(framework, algo, project)
+    #     except Exception as e:
+    #         print(f"Error occurred while generating static call graph for {project} with {framework} and {algo}: {e}")
 
     if not os.path.exists(staticcg_path / "cg.json"):
         return (1, f"static-{framework}-{algo}")
